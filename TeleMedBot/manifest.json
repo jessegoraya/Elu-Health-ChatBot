@@ -1,0 +1,19 @@
+﻿{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v0.4/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "0.4",
+  "id": "a8641a16-932c-49a5-af8b-a58ab2ce251f",
+  "version": "1.0",
+  "developer": {
+    "name": "elu",
+    "privacyUrl": "https://www.elu.io/privacy",
+    "termsOfUseUrl": "https://www.elu.io/tou",
+    "websiteUrl": "https://www.elu.io"
+  },
+  "bots": [
+    {
+      "mri": "a8641a16-932c-49a5-af8b-a58ab2ce251f"
+    }
+  ],
+  "needsIdentity": true
+} 
+   
