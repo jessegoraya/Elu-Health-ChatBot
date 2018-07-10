@@ -66,6 +66,8 @@ namespace TeleMedBot.Services
 
         }
 
+        []
+
         [LuisIntent("Update Patient")]
         public async Task UpdatePatient(IDialogContext context, LuisResult result)
         {
@@ -119,8 +121,8 @@ namespace TeleMedBot.Services
                     msg.Text = "Patient updated on the right. Confirm and/or make additonal changes in the form and then type confirm";
 
 
-                    //await context.PostAsync(msg.Text);
-                    context.Done(msg);
+                    await context.PostAsync(msg.Text);
+                    context.Done(workflowid);
                 }
                 catch (Exception)
                 {
